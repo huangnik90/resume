@@ -14,15 +14,26 @@ import heroku from './../support/img/skill/heroku.png'
 import google from './../support/img/skill/google.jpg'
 import mysql from './../support/img/skill/mysql.jpg'
 import './../support/work.css'
-
+import DP from './../support/img/pp.svg'
 class Work extends React.Component{
     render(){
         return(
             <div className="container">
-                <div className="row">
+               <div className="row mt-4">
+                  <div className="col-12 col-md-6 field animated slow flipInX">
+                     <img src={DP} alt="Niko" width="25%" style={{borderRadius:"100%"}}/>
+                  </div>
+                  <div className="col-12 col-md-6 animated fadeInUp slow">
+                     <h2 className="text-center">Hi.</h2>
+                     <p>
+                     I'm a web designer / developer based in Jakarta, Indonesia. I have a passion for web design and love to create for web and mobile apps.
+                     </p>
+                  </div>
+               </div>
+                <div className="row mt-4">
                     <div className="col-12 col-md-12">
-                        <h3>SKILLS</h3>
-                    </div>
+                        <h3>My Skills</h3>
+                </div>
                 </div>
             <fieldset class="border p-2 field animated slideInLeft">
             <legend  class="w-auto">Front End</legend>

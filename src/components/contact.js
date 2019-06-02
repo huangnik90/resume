@@ -1,6 +1,5 @@
 import React from 'react'
 import swal from 'sweetalert'
-import './../support/contact.css'
 const transporter = require('./../helper/nodemailer')
 
 
@@ -32,7 +31,7 @@ class Contact extends React.Component{
     }
     render(){
         return(
-            <div className="container contactUs">
+            <div className="container animated fast lightSpeedIn ">
                 
       <section className="mb-4">
         <h2 className="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
@@ -40,7 +39,7 @@ class Contact extends React.Component{
           a matter of hours to help.</p>
         <div className="row">
           <div className="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <form id="contact-form" name="contact-form" >
               <div className="row">
                 <div className="col-md-6">
                   <div className="md-form mb-0">

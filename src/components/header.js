@@ -6,7 +6,6 @@ import {
   Nav,
   NavItem,
 } from 'reactstrap';
-import Image1 from './../support/img/logo.png'
 import {Link} from 'react-router-dom'
 export default class Example extends React.Component {
   constructor(props) {
@@ -27,16 +26,16 @@ export default class Example extends React.Component {
       <div>
           <Navbar color="light" light expand="md">
           <Link to="/">
-            <img src={Image1} alt="logo" width="20%"/>
+            <img src="https://static1.squarespace.com/static/57229aa27da24fd5709d7a9b/t/59cc714503596e87f56e5471/1554152159328/?format=1500w" alt="logo" width="20%"/>
           </Link>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <Link to="/about/" style={{marginRight:"40px"}}>About Me</Link>
+                <Link to="/about/" style={{textDecoration:"none",marginRight:"40px"}}>About</Link>
               </NavItem>
               <NavItem>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact"style={{textDecoration:"none"}}>Contact</Link>
               </NavItem>
               
             </Nav>

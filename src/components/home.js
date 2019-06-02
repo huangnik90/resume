@@ -11,13 +11,13 @@ class Home extends React.Component{
         return(
             <div className="container-full home">
                 <div className="gambar">
-                    <div className="intro animated fadeInDown">
-                    <h3>Hello! I'm Niko</h3>
+                    <div className="intro animated slow fadeInDown">
+                    <h3 style={{color:"black"}}>Hello! I'm Niko</h3>
                     <h2>Consult, Design and Develop Website</h2>
                     <p>Have something great in mind? Feel free to contact me. I'll help you make it happen.</p>
                     </div>
                     <Link to="/contact" style={{textDecoration:"none"}}>
-                    <div className="findme animated fadeInUp">
+                    <div className="findme animated slow fadeInUp mt-5">
                        Contact Me
                     </div>
                     </Link>
