@@ -1,0 +1,35 @@
+.nav li{
+    display: inline-block;
+    padding: 5px;
+    padding-top: 15px;
+    padding-left: 60px;
+}
+.branding h1{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.nav li a:hover{
+    color:grey;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.navigation{
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.homecontent{
+    position: relative;
+    height: 850px;
+    justify-content: center;
+}
+.homecontent h2{
+    text-align: center;
+    margin-top:80px;
+}
+    

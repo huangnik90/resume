@@ -1,0 +1,57 @@
+.gambar{
+    background-image: url(./img/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.home{
+    scroll-behavior: smooth;
+}
+
+.intro{
+    text-align: center;
+    width: 410px;
+    top:15%;
+    left: 35.5%;
+    margin: 0 auto;
+    padding-top: 190px;
+
+}
+
+.findme{
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 150px;
+    height: 50px;
+    top:45%;
+    left: 43%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+}
+
+.findme:hover {
+    background-color: white;
+    cursor: pointer;    
+    
+}
+
+.content{
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.content-1{
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    padding: 20px;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
