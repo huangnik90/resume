@@ -35,9 +35,12 @@ export default class Example extends React.Component {
                 <Link to="/about/" style={{textDecoration:"none",marginRight:"40px"}}>About</Link>
               </NavItem>
               <NavItem>
-                <Link to="/contact"style={{textDecoration:"none"}}>Contact</Link>
+                <Link to="/contact"style={{textDecoration:"none",marginRight:"40px"}}>Contact</Link>
               </NavItem>
-              
+              <NavItem>
+                <Link to="/contact"style={{textDecoration:"none",marginRight:"40px"}}>Projects</Link>
+              </NavItem>
+           
             </Nav>
           </Collapse>
         </Navbar>

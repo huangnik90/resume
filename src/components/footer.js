@@ -5,7 +5,7 @@ class Footer extends React.Component {
     render() {
         return (
         <footer  id="footer"  className="page-footer font-small special-color-dark pt-4">
-        <div className="footer-copyright text-center py-3">© 2019 : NIKOLAS WIJAYA
+        <div className="footer-copyright text-center py-3">© 2020 : NIKOLAS WIJAYA
         </div>
         <div className="container-fluid">
           <ul className="list-unstyled list-inline text-center">
